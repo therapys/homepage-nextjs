@@ -37,7 +37,7 @@ export default function RootLayout({
 
         <footer className="flex items-end justify-center">
           <p>
-            © 2024 therapy
+            © 2024 karl
           </p>
         </footer>
         </main>

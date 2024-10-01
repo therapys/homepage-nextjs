@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <div>
       <main className="block isolate">
-        <h1>hi i'm karl, also refered to as therapy</h1>
+        <h1>hi i'm karl</h1>
         
         <h3>i write code, take photos, sometimes pentest.</h3>
 
