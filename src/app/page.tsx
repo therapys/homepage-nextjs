@@ -2,7 +2,7 @@ export default function Home() {
   return (
     <div>
       <main className="block isolate">
-        <h1>hi i&apos;m karl</h1>
+        <h2>hi i&apos;m karl</h2>
 
         <h3>i write code, take photos, sometimes pentest.</h3>
 
@@ -66,7 +66,7 @@ export default function Home() {
           is for.
         </p>
 
-        <p>
+        {/* <p>
           this site is heavily inspired by{" "}
           <a
             className="text-blue-500 cursor-pointer no-underline hover:underline"
@@ -75,7 +75,7 @@ export default function Home() {
             bearblog
           </a>
           . i heavily recommend you check it out.
-        </p>
+        </p> */}
       </main>
     </div>
   );
