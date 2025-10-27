@@ -2,7 +2,7 @@ export default function Projects() {
   return (
       <>
           <h1>Projects</h1>
-          <h2>Things I've built and worked on</h2>
+          <h2>Things I&apos;ve built and worked on</h2>
 
           <h3>Active</h3>
           <ul>
