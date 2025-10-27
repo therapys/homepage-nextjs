@@ -21,24 +21,18 @@ export default function RootLayout({
       <body>
         <main className="flex flex-col">
         <header>
-          <a className="hover:no-underline">
-            <h1 className="text-2xl bold">karls hideout</h1>
-          </a>
-          <nav className="block isolate">
-            <p>
-              <a className="text-blue-500 mr-2 cursor-pointer no-underline hover:underline" href="/">home</a>
-              <a className="text-blue-500 mr-2 cursor-pointer no-underline hover:underline" href="/projects/">projects</a>
-              <a className="text-blue-500 mr-2 cursor-pointer no-underline hover:underline" href="/blog/">blog</a>
-              <a className="text-blue-500 mr-2 cursor-pointer no-underline hover:underline" href="/gallery/">gallery</a>
-            </p>
+          <nav>
+            <a href="/">home</a>
+            <span> · </span>
+            <a href="/projects/">projects</a>
+            <span> · </span>
+            <a href="/blog/">blog</a>
           </nav>
         </header>
         {children}
 
-        <footer className="flex items-end justify-center">
-          <p>
-            © 2024 karl
-          </p>
+        <footer>
+          <p>© 2025 karl</p>
         </footer>
         </main>
       </body> 
